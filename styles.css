@@ -153,7 +153,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: darken(var(--primary-color), 10%);
+    background-color: darken(var(--button-color), 30%);
 }
 
 /* Ensure you have the primary and secondary color variables defined in your :root selector */
