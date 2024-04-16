@@ -324,6 +324,47 @@ footer {
 
 /* Ensure you have the primary and secondary color variables defined in your :root selector */
 
+.technology-section {
+  background-color: #FFFFFF; /* White background */
+  color: #333333; /* Dark text for readability */
+  padding: 40px 0;
+}
+
+.technology-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.technology-section h2 {
+  color: #0000FF; /* Blue color for headings */
+  margin-bottom: 20px;
+}
+
+.technology-section .service {
+  margin-bottom: 30px;
+}
+
+.technology-section .service h3 {
+  color: #6495ED; /* Lighter blue for subheadings */
+}
+
+.technology-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.technology-section ul li::before {
+  content: '•';
+  color: #0000FF; /* Blue color for bullet points */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.technology-section p {
+  line-height: 1.6;
+}
 
 @media (max-width: 768px) {
     .features-grid {
