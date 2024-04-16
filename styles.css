@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #FFC0CB; /* Pink color for the primary theme */
-    --secondary-color: #f4f4f4; /* Secondary color remains light grey */
+    --primary-color: #6495ED; /* Pink color for the primary theme */
+    --secondary-color: #FFA500; /* Secondary color remains light grey */
     --button-color: #0000FF; /*button color*/
     --text-color: #333; /* Text color remains dark grey */
     --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
