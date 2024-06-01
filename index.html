@@ -13,12 +13,15 @@
 <body>
     <div class="container">
         <header>
+	  <div class="header-content">
+            <img src="./BBB_logo.png" alt="Logo" class="header-logo">
+           <div>
             <h1 class="logo">BanterBrain Buddy</h1>
             <p>A streamer's best AI companion!</p>
-            </br>
+	   </div>
+           </div>
             <nav>
                 <ul>
-                    <li><a href="#features">Features</a></li>
 	            <li><a href="#streaming-companion">Enhance</a></li>
 		     <li><a href="#technology">Technology</a></li>
                     <li><a href="#open-source">Open Source</a></li>
@@ -32,23 +35,23 @@
             <section id="hero">
                 <div class="hero-content">
                     <h2>Engage Your Audience Like Never Before</h2>
-                    <p>Discover the power of interactive streaming with Text-To-Speech, Speech-To-Text and AI-driven engagement.</p>
+                    <p>Discover the power of interactive streaming with AI-driven engagement reacting to you and your viewers.</p>
                     <a href="https://github.com/WhiskerWeirdo/BanterBrain-Buddy/releases" class="btn-primary">Download</a>
                 </div>
             </section>
             <section id="features" class="section-bg">
-                <h2 class="section-title">Innovative Features</h2>
+                <h2 class="section-title">Features</h2>
                 <div class="features-grid">
                     <!-- Feature 1 -->
                     <div class="feature">
                         <i class="feature-icon fas fa-robot"></i>
                         <h3>Generative AI</h3>
-                        <p>Customizable AI that adapts to your streaming style and audience preferences.</p>
+                        <p>Customizable AI that adapts to your streaming style and audience.</p>
                     </div>
                     <!-- Feature 2 -->
                     <div class="feature">
                         <i class="feature-icon fas fa-microphone"></i>
-                        <h3>Unique voices and persona's</h3>
+                        <h3>Unique voices and personas</h3>
                         <p>Combine generative AI roles and text-to-speech voices in unique combinations.</p>
                     </div>
                     <!-- Feature 3 -->
@@ -57,13 +60,37 @@
                         <h3>Text-to-Speech</h3>
                         <p>High-quality voices that bring your stream to life, making it accessible to all.</p>
                     </div>
+                    <!-- Feature 4 -->
+                    <div class="feature">
+                        <i class="feature-icon fas fa-volume-up"></i>
+                        <h3>Twitch events</h3>
+                        <p>React automatically to Twitch events like subscriptions, chat commands, redeems.</p>
+                    </div>
+                    <!-- Feature 5 -->
+                    <div class="feature">
+                        <i class="feature-icon fas fa-volume-up"></i>
+                        <h3>Local AI</h3>
+                        <p>Supports Ollama and ChatGPT</p>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="feature">
+                        <i class="feature-icon fas fa-volume-up"></i>
+                        <h3>Speech-to-Text</h3>
+                        <p>Configure local or cloud services to recognize what you say.</p>
+                    </div>
+                    <!-- Feature 7 -->
+                    <div class="feature">
+                        <i class="feature-icon fas fa-volume-up"></i>
+                        <h3>Configurable</h3>
+                        <p>Configure what Twitch events you want the companion to respond to.</p>
+                    </div>
                 </div>
             </section>
 <!-- Unique Streaming Companion Section -->
 <section id="streaming-companion" class="info-section">
     <div class="content-wrap">
         <h2>Enhance Your Stream with a Unique AI Companion</h2>
-        <p>Discover the future of live streaming with BanterBrain, your AI-powered sidekick. Designed to revolutionize viewer interaction and retention, our customizable generative AI companions are the perfect co-hosts for your streaming sessions.</p>
+        <p>Discover the future of live streaming with BanterBrain, your AI-powered sidekick. Designed to create viewer interaction and retention, our customizable generative AI companions are the perfect co-hosts for your streaming sessions.</p>
         
         <div class="companion-benefits">
             <h3>Interactive Engagement</h3>
@@ -87,30 +114,42 @@
 </section>
 
 <!-- Technology used Section -->
-<section id="technology" class="technology-section">
-  <div class="container">
+<section id="streaming-companion" class="info-section">
+  <div class="content-wrap">
     <h2>Technology</h2>
     <p>Banterbrain Buddy is a native Windows application written in c# that supports multiple technologies to fit your streamer needs.</p>
     
-    <div class="service">
+    <div class="companion-benefits">
       <h3>Text-to-Speech Services</h3>
       <p>Transform written content into natural-sounding speech with our range of Text-to-Speech (TTS) services. Choose from:</p>
       <ul>
         <li><strong>Windows Native</strong>: Leverage the built-in capabilities of Windows for seamless TTS integration.</li>
         <li><strong>Azure TTS</strong>: Access a wide range of voices and languages with Azure's cloud-based TTS service.</li>
         <li><strong>ElevenLabs</strong>: Experience high-quality, lifelike voices powered by ElevenLabs' advanced TTS technology.</li>
+	<li><strong>OpenAI Whisper</strong>: OpenAI's Whisper has natural sounding voices.</li>
       </ul>
       <p>TTS services are available in both free and premium models, ensuring accessibility and advanced features for all users. Be sure to check out what suits your needs!</p>
     </div>
     
-    <div class="service">
+    <div class="companion-benefits">
       <h3>Generative AI</h3>
       <p>Engage with AI like never before. Our Generative AI services include:</p>
       <ul>
-        <li><strong>OpenAI's ChatGPT</strong>: Setuph an AI-driven chatbot capable of understanding and generating human-like text that responds how you want it.</li>
+        <li><strong>OpenAI's ChatGPT</strong>: Setup an AI-driven chatbot capable of understanding and generating human-like text that responds how you want it.</li>
+ 	<li><strong>Ollama</strong>: Run a fully local LLM that will allow you to run any model and configuration you want.</li>
       </ul>
       <p>While there is a free test subscription to use the features, for the API from Banterbrain you <strong>will</strong> need the paid service. Suggested is the pay-as-you-go subscription. For the pricing options you can find more information <a href="https://openai.com/pricing">here</a></p>
     </div>
+
+    <div class="companion-benefits">
+      <h3>Supports</h3>
+      <p>BanterBrain Buddy supports many streaming tools!</p>
+      <ul>
+	<li><strong>OBS Studio</strong></li>
+	<li><strong>VTube Studio</strong></li>
+      </ul>
+    </div>
+
   </div>
 </section>
 
